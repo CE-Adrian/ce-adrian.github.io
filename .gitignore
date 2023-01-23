@@ -1,8 +1,7 @@
 # Jekyll transient files
-_site
-docs/Gemfile.lock
-docs/.sass-cache
-docs/.jekyll-metadata
+jekyll-site/Gemfile.lock
+jekyll-site/.sass-cache
+jekyll-site/.jekyll-metadata
 
 # Others
 **/*~
