@@ -12,15 +12,6 @@
   rooted under jekyll-site vs. being rooted at the top-level.
 * This allows the build scripts (and .git directory) to live outside
   of the Jekyll portion of the project
-* The utility scripts perform he following...
-  * `local.sh` - builds the site locally to `_site` and spins up
-    Jekyll's built in web server to serve up content at
-    [http://localhost:4000/](http://localhost:4000/).
-  * `dev.sh` - builds the site locally to `_site` and rsync's content
-    to [http://beta.accumulosummit.com/](http://beta.accumulosummit.com/)
-  * `prod.sh` - builds the site locally to `_site` and rsync's content
-    to [http://www.accumulosummit.com/](http://www.accumulosummit.com/)
-
 
 ## Other Things of Note
 
